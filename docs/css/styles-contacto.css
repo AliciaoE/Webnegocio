@@ -1,0 +1,65 @@
+/* Estilos CSS para la página de contacto */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #1c4a55;
+    color: #fff;
+    padding: 20px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+nav li {
+    margin: 0 15px;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+}
+main {
+    padding: 40px;
+}
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact-info p {
+    margin-bottom: 10px;
+}
+.contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+input[type="submit"] {
+    background-color: #1c4a55;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1c4a55;
+    color: #fff;
+}
