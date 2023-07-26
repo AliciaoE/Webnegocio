@@ -150,7 +150,7 @@ cite{
 }
 
 .page-header ul {
-  display: -webkit-box;
+ display: inline-block;
   display: flex;
   -webkit-box-ordinal-group: 2;
           order: 1;
